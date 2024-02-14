@@ -1,0 +1,133 @@
+section{
+    width: 600px;
+    height: 600px;
+    display: grid;
+    grid-template-columns:   25% 25% 25% 25% 25% 25%;
+    grid-template-rows: 25% 25% 25% 25% 25% 25% 25% 25% 25%;
+    margin: 5rem;
+}
+section div img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+.foto1{
+    grid-column-end: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+.foto2{
+    grid-column-end: 2;
+    grid-column-end: 3;
+    grid-row-start: 3;
+    grid-row-end: 4;
+}
+.foto3{
+    grid-column-end: 2;
+    grid-column-end: 3;
+    grid-row-start: 4;
+    grid-row-end: 5;
+}
+.foto4{
+    grid-column-end: 2;
+    grid-column-end: 3;
+    grid-row-start: 5;
+    grid-row-end: 6;
+}
+.foto5{
+    grid-column-end: 3;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+.foto6{
+    grid-column-end: 4;
+    grid-column-end: 5;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+.foto7{
+    grid-column-end: 5;
+    grid-column-end: 6;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+.foto8{
+    grid-column-end: 3;
+    grid-column-end: 4;
+    grid-row-start: 5;
+    grid-row-end: 6;
+}
+.foto9{
+    grid-column-end: 4;
+    grid-column-end: 5;
+    grid-row-start: 5;
+    grid-row-end: 6;
+}
+.foto10{
+    grid-column-end: 5;
+    grid-column-end: 6;
+    grid-row-start: 5;
+    grid-row-end: 6;
+}
+.foto11{
+    grid-column-end: 5;
+    grid-column-end: 6;
+    grid-row-start: 3;
+    grid-row-end: 4;
+}
+.foto12{
+    grid-column-end: 5;
+    grid-column-end: 6;
+    grid-row-start: 4;
+    grid-row-end: 5;
+}
+.foto13{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 6;
+    grid-row-end: 7;
+}
+
+.amarillo1{
+    background-color: rgb(233, 139, 233);
+    grid-column-start: 3;
+    grid-column-end: 5;
+    grid-row-start: 3;
+    grid-row-end: 4;
+}
+.amarillo2{
+    background-color: rgb(233, 139, 233);
+    grid-column-start: 3;
+    grid-column-end: 5;
+    grid-row-start: 4;
+    grid-row-end: 5;
+}
+
+.verde2{
+    background-color:rgb(6, 100, 6);
+    grid-column-start: 3;
+    grid-column-end: 5;
+    grid-row-start: 7;
+    grid-row-end: 8;
+}
+.verde3{
+    background-color: rgb(6, 100, 6);
+    grid-column-start: 3;
+    grid-column-end: 5;
+    grid-row-start: 8;
+    grid-row-end: 9;
+}
+.verde4{
+    background-color: rgb(6, 100, 6);
+    grid-column-start: 1;
+    grid-column-end: 7;
+    grid-row-start: 9;
+    grid-row-end: 10;
+}
+.verde4 p{
+    color:white;
+    text-align: center;
+}
